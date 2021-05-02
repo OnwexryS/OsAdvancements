@@ -1,0 +1,62 @@
+#Settings
+logFinishedAdvancements: false
+#Logs finished advancements
+logOnlyDefinedAdvancementsOnFinish: true
+#Logs only defined advancements on osadvancements
+logToConsole: true
+#Sends logs to console (potentially spam to console)
+logToFile: true
+#is log.txt enabled? Recommended
+debug : true
+#Enables or disables debug messages
+
+#Advancement Rewards
+advancements:
+  ex1:
+    nameSpacedID: minecraft:adventure/shoot_arrow
+    commands:
+      - eco give %player% 50
+      - say %player% completed an advancement
+    items:
+      - first
+      - second
+  example2:
+    nameSpacedID: minecraft:story/iron_tools
+    commands:
+      - eco give %player% 250
+      - minecraft:tell %player% That is my gift
+    items:
+      - first
+
+
+
+#%player% means player's name who completed the advancement while executing a command
+
+#You can also reward player's who unlocked a new recipe (like minecraft:recipes/brewing/brewing_stand)
+
+#You can generate custom advancements wia: https://advancements.thedestruc7i0n.ca
+#Put your custom advancements file to in your server's main world's datapack folder.
+#A little research will make you the master of it
+#There you can find vanilla advancements and more thing about the advancements https://minecraft.gamepedia.com/Advancement
+
+
+
+
+#Language Settings
+reloadingMessage: '&e&lReloading..'
+reloadedMessage: '&a&lReloaded !'
+loadingAdvancementsMessage: ' &9&lAdvancement is loading.'
+newAdvancementMessage: 'Advancement with key '
+newAdvancementMessageResume: ' is detected.'
+newItemMessage: 'Item with key '
+newItemMessageResume: ' is detected.'
+finishedAdvancementMessage: '&b&l Completed advancement: '
+commandMessage: 'Command is executing... Command is: '
+advancementRewardMessage: '&6Giving advancement reward to &e'
+itemLoadedMessage: '&7Item &f'
+itemLoadedMessageResume: '&7 is loaded'
+itemAlreadyDefinedErrorMessage: '&cThe item &f'
+itemAlreadyDefinedErrorMessageResume: ' &cis defined more than once'
+advancementRewardItemNotFound: '&cItem with ID &f'
+advancementRewardItemNotFoundResume: ' &cdoesn''t exist'
+noPermisisonMessage: '&f&lYou dont have permission.'

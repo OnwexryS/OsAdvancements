@@ -1,0 +1,10 @@
+third:
+  type: STONE
+  amount: 5
+  meta:
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"asdsa"}],"text":""}'
+    custom-model-data: 1
+    Unbreakable: true
+fourth:
+  type: DIRT

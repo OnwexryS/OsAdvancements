@@ -1,0 +1,12 @@
+name: OsAdvancements
+version: ${project.version}
+main: com.minerival.develop.osadvancements.main
+api-version: 1.16
+authors: [OnwexryS]
+softdepend: [PlaceholderAPI]
+commands:
+  osadvancements:
+    description: Reloads the config file.
+permissions:
+  osadvancements.reload:
+    default: op

@@ -1,0 +1,128 @@
+prefix: '&1[&bO''s &9Advancements&1] '
+printFinishedAdvancements: false
+printLoadedAdvancements: true
+printAdvancementReward: false
+advancements:
+  1:
+    nameSpacedID: ilkbasarim
+    commands:
+      - ilkodul
+      - testilkodul
+    items:
+      ilk:
+        type: DIAMOND
+        amount: 5
+        meta:
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"text":"asdsa"}],"text":""}'
+          custom-model-data: 1
+          Unbreakable: true
+      ikinci:
+        type: DIRT
+  2:
+    nameSpacedID: ikincibasarim
+    commands:
+      - ikinciodul
+    items:
+      secondreward:
+        v: 2586
+        type: DIAMOND
+advancements2:
+  - minecraft:adventure/root@bpver %player% 1
+  - minecraft:adventure/voluntary_exile@bpver %player% 1
+  - minecraft:adventure/kill_a_mob@bpver %player% 1
+  - minecraft:adventure/trade@bpver %player% 1
+  - minecraft:adventure/honey_block_slide@bpver %player% 3
+  - minecraft:adventure/ol_betsy@bpver %player% 1
+  - minecraft:adventure/sleep_in_bed@bpver %player% 1
+  - minecraft:adventure/hero_of_the_village@bpver %player% 10
+  - minecraft:adventure/throw_trident@bpver %player% 2
+  - minecraft:adventure/shoot_arrow@bpver %player% 1
+  - minecraft:adventure/kill_all_mobs@bpver %player% 15
+  - minecraft:adventure/totem_of_undying@bpver %player% 2
+  - minecraft:adventure/summon_iron_golem@bpver %player% 2
+  - minecraft:adventure/two_birds_one_arrow@bpver %player% 8
+  - minecraft:adventure/whos_the_pillager_now@bpver %player% 2
+  - minecraft:adventure/arbalistic@bpver %player% 8
+  - minecraft:adventure/adventuring_time@bpver %player% 15
+  - minecraft:adventure/very_very_frightening@bpver %player% 3
+  - minecraft:adventure/sniper_duel@bpver %player% 3
+  - minecraft:adventure/bullseye@bpver %player% 8
+  - minecraft:husbandry/root@bpver %player% 1
+  - minecraft:husbandry/safely_harvest_honey@bpver %player% 1
+  - minecraft:husbandry/breed_an_animal@bpver %player% 1
+  - minecraft:husbandry/tame_an_animal@bpver %player% 1
+  - minecraft:husbandry/fishy_business@bpver %player% 1
+  - minecraft:husbandry/silk_touch_nest@bpver %player% 2
+  - minecraft:husbandry/plant_seed@bpver %player% 1
+  - minecraft:husbandry/bred_all_animals@bpver %player% 8
+  - minecraft:husbandry/complete_catalogue@bpver %player% 8
+  - minecraft:husbandry/tactical_fishing@bpver %player% 1
+  - minecraft:husbandry/balanced_diet@bpver %player% 8
+  - minecraft:husbandry/obtain_netherite_hoe@bpver %player% 8
+  - minecraft:nether/root@bpver %player% 2
+  - minecraft:nether/return_to_sender@bpver %player% 3
+  - minecraft:nether/find_bastion@bpver %player% 3
+  - minecraft:nether/obtain_ancient_debris@bpver %player% 3
+  - minecraft:nether/fast_travel@bpver %player% 5
+  - minecraft:nether/find_fortress@bpver %player% 2
+  - minecraft:nether/obtain_crying_obsidian@bpver %player% 2
+  - minecraft:nether/distract_piglin@bpver %player% 2
+  - minecraft:nether/ride_strider@bpver %player% 2
+  - minecraft:nether/uneasy_alliance@bpver %player% 5
+  - minecraft:nether/loot_bastion@bpver %player% 2
+  - minecraft:nether/use_lodestone@bpver %player% 2
+  - minecraft:nether/netherite_armor@bpver %player% 15
+  - minecraft:nether/get_wither_skull@bpver %player% 2
+  - minecraft:nether/obtain_blaze_rod@bpver %player% 2
+  - minecraft:nether/charge_respawn_anchor@bpver %player% 2
+  - minecraft:nether/explore_nether@bpver %player% 4
+  - minecraft:nether/summon_wither@bpver %player% 4
+  - minecraft:nether/brew_potion@bpver %player% 2
+  - minecraft:nether/create_beacon@bpver %player% 2
+  - minecraft:nether/all_potions@bpver %player% 10
+  - minecraft:nether/create_full_beacon@bpver %player% 3
+  - minecraft:nether/all_effects@bpver %player% 10
+  - minecraft:end/root@bpver %player% 3
+  - minecraft:end/kill_dragon@bpver %player% 10
+  - minecraft:end/dragon_egg@bpver %player% 5
+  - minecraft:end/enter_end_gateway@bpver %player% 3
+  - minecraft:end/respawn_dragon@bpver %player% 15
+  - minecraft:end/dragon_breath@bpver %player% 5
+  - minecraft:end/find_end_city@bpver %player% 3
+  - minecraft:end/elytra@bpver %player% 3
+  - minecraft:end/levitate@bpver %player% 10
+  - minecraft:story/root@bpver %player% 1
+  - minecraft:story/mine_stone@bpver %player% 1
+  - minecraft:story/upgrade_tools@bpver %player% 1
+  - minecraft:story/smelt_iron@bpver %player% 1
+  - minecraft:story/obtain_armor@bpver %player% 1
+  - minecraft:story/lava_bucket@bpver %player% 1
+  - minecraft:story/iron_tools@bpver %player% 1
+  - minecraft:story/deflect_arrow@bpver %player% 1
+  - minecraft:story/form_obsidian@bpver %player% 2
+  - minecraft:story/mine_diamond@bpver %player% 3
+  - minecraft:story/enter_the_nether@bpver %player% 1
+  - minecraft:story/shiny_gear@bpver %player% 2
+  - minecraft:story/enchant_item@bpver %player% 2
+  - minecraft:story/cure_zombie_villager@bpver %player% 3
+  - minecraft:story/follow_ender_eye@bpver %player% 2
+  - minecraft:story/enter_the_end@bpver %player% 1
+reloadingMessage: '&e&lYenileniyor..'
+reloadedMessage: '&a&lYenilendi !'
+loadingAdvancementsMessage: ' &9&lBaşarım Ödülü Yükleniyor.'
+newAdvancementMessage: ' Başarımı tespit edildi.'
+finishedAdvancementMessage: '&b&l Bitirilen Başarım: '
+commandMessage: 'KOMUT YÜRÜTÜLÜYOR YÜRÜTÜLEN KOMUT: '
+noPermisisonMessage: '&f&lBu komuta yetkin yok.'
+test:
+  ==: org.bukkit.inventory.ItemStack
+  v: 2586
+  type: DIAMOND
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"asdsa"}],"text":""}'
+    custom-model-data: 1
+    Unbreakable: true

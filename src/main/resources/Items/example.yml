@@ -1,0 +1,11 @@
+first:
+  type: DIAMOND
+  amount: 5
+  meta:
+    meta-type: UNSPECIFIC
+    display-name: '{"extra":[{"text":"asdsa"}],"text":""}'
+    custom-model-data: 1
+    Unbreakable: true
+#Soon it's going to support metadatas but for now only type works
+second:
+  type: DIRT
